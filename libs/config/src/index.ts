@@ -2,7 +2,6 @@ import type { Options } from "@wdio/types";
 import * as path from "path";
 
 const rootDir = path.resolve("../../");
-console.info("rootDir", rootDir);
 
 export const config: Options.Testrunner = {
   //

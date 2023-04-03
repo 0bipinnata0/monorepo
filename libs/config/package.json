@@ -1,16 +1,16 @@
 {
-  "name": "@my-mono/config",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "devDependencies": {},
+  "author": "",
   "dependencies": {
     "@my-mono/content": "^1.0.0"
   },
+  "description": "",
+  "devDependencies": {},
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@my-mono/config",
   "scripts": {
     "build": "tsc",
     "wdio": "wdio run ./dist/index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "version": "1.0.0"
 }

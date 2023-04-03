@@ -1,19 +1,21 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "removeComments": true,
-    "moduleResolution": "node",
     "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "removeComments": true,
+    "rootDir": "src", /* Specify the root folder within your source files. */
+    "skipLibCheck": true,
+    "target": "ESNext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
     "types": [
       "node",
       "@wdio/globals/types",
       "expect-webdriverio",
       "@wdio/cucumber-framework"
-    ],
-    "skipLibCheck": true,
-    "outDir": "dist",
-    "target": "ESNext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
-    "rootDir": "src" /* Specify the root folder within your source files. */
+    ]
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }

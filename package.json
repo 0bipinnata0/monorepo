@@ -16,5 +16,9 @@
   "scripts": {
     "wdio": "turbo run wdio",
     "build": "turbo run build"
-  }
+  },
+  "workspaces": [
+    "test/*",
+    "libs/*"
+  ]
 }
