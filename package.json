@@ -10,14 +10,13 @@
     "chromedriver": "^111.0.0",
     "ts-node": "^10.9.1",
     "tsup": "^6.7.0",
+    "turbo": "^1.8.8",
     "typescript": "^5.0.3",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "scripts": {
-    "config": "npm run build -w=@local-mono/config",
-    "wdio": "npm run wdio -w=@local-mono/config",
-    "build": "npm run build -w=@local-mono/pages",
-    "steps": "npm run build -w=@local-mono/content"
+    "wdio": "turbo run wdio",
+    "build": "turbo run build"
   },
   "workspaces": [
     "libs/*",
