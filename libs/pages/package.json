@@ -1,0 +1,16 @@
+{
+  "name": "@local-mono/pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.mjs",
+  "devDependencies": {},
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.3"
+  },
+  "author": "",
+  "license": "ISC"
+}

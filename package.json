@@ -1,5 +1,5 @@
 {
-  "name": "my-new-project",
+  "name": "@local-mono",
   "type": "module",
   "devDependencies": {
     "@wdio/cli": "^8.6.9",
@@ -9,10 +9,16 @@
     "@wdio/spec-reporter": "^8.6.8",
     "chromedriver": "^111.0.0",
     "ts-node": "^10.9.1",
+    "tsup": "^6.7.0",
     "typescript": "^5.0.3",
     "wdio-chromedriver-service": "^8.1.1"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.ts"
-  }
+    "wdio": "npm run wdio -w=@local-mono/content",
+    "build": "npm run build -w=@local-mono/pages"
+  },
+  "workspaces": [
+    "libs/*",
+    "test/content"
+  ]
 }

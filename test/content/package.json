@@ -1,0 +1,14 @@
+{
+  "name": "@local-mono/content",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@local-mono/pages": "^1.0.0"
+  }
+}
