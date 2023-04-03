@@ -1,5 +1,5 @@
 import { Given, When, Then } from "@wdio/cucumber-framework";
-import { LoginPage, SecurePage } from "@local-mono/pages";
+import { LoginPage, SecurePage } from "@my-mono/pages";
 
 const pages = {
   login: LoginPage,

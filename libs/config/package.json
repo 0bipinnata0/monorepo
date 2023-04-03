@@ -1,11 +1,11 @@
 {
-  "name": "@local-mono/config",
+  "name": "@my-mono/config",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "devDependencies": {},
   "dependencies": {
-    "@local-mono/content": "^1.0.0"
+    "@my-mono/content": "^1.0.0"
   },
   "scripts": {
     "build": "tsc",

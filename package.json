@@ -1,6 +1,5 @@
 {
-  "name": "@local-mono",
-  "type": "module",
+  "name": "@my-mono",
   "devDependencies": {
     "@wdio/cli": "^8.6.9",
     "@wdio/cucumber-framework": "^8.6.9",
