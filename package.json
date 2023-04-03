@@ -14,8 +14,10 @@
     "wdio-chromedriver-service": "^8.1.1"
   },
   "scripts": {
-    "wdio": "npm run wdio -w=@local-mono/content",
-    "build": "npm run build -w=@local-mono/pages"
+    "config": "npm run build -w=@local-mono/config",
+    "wdio": "npm run wdio -w=@local-mono/config",
+    "build": "npm run build -w=@local-mono/pages",
+    "steps": "npm run build -w=@local-mono/content"
   },
   "workspaces": [
     "libs/*",

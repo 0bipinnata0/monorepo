@@ -2,7 +2,8 @@
   "name": "@local-mono/pages",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.mjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "devDependencies": {},
   "types": "./dist/index.d.ts",
   "scripts": {

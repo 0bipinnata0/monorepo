@@ -1,4 +1,8 @@
 import type { Options } from "@wdio/types";
+import * as path from "path";
+
+const rootDir = path.resolve("../../");
+console.info("rootDir", rootDir);
 
 export const config: Options.Testrunner = {
   //
@@ -31,7 +35,7 @@ export const config: Options.Testrunner = {
   // then the current working directory is where your `package.json` resides, so `wdio`
   // will be called from there.
   //
-  specs: ["./features/*.feature"],
+  specs: ["../../../test/content/features/*.feature"],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -148,7 +152,7 @@ export const config: Options.Testrunner = {
   // If you are using Cucumber you need to specify the location of your step definitions.
   cucumberOpts: {
     // <string[]> (file/dir) require files before executing features
-    require: ["./src/steps/login.ts"],
+    require: ["../../node_modules/@local-mono/content/dist/index.js"],
     // <boolean> show full backtrace for errors
     backtrace: false,
     // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
