@@ -10,7 +10,7 @@
   "name": "@my-mono/config",
   "scripts": {
     "build": "tsc",
-    "wdio": "wdio run ./dist/index.js"
+    "wdio": "wdio run ./dist/wdio.config.js"
   },
   "version": "1.0.0"
 }
