@@ -7,7 +7,7 @@
     "removeComments": true,
     "rootDir": "src",
     "skipLibCheck": true,
-    "target": "ESNext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "target": "ESNext",
     "types": [
       "node",
       "@wdio/globals/types",
@@ -15,5 +15,5 @@
       "@wdio/cucumber-framework"
     ]
   },
-  "include": ["src", "features"]
+  "include": ["src"]
 }
